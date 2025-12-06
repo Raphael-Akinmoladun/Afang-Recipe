@@ -32,7 +32,7 @@ h3 {
     color: var(--color-primary);
     font-size: 25px;
     margin: 15px 0 10px 0;
-    border-bottom: 2px solid var(--color-underline);
+    border-bottom: 2px solid var(--color-underline); /* Underline for emphasis */
     padding-bottom: 5px;
     display: inline-block;
 }
@@ -50,23 +50,23 @@ em {
 
 .main-content {
     max-width: 1000px;
-    margin: 50px 250px;
+    margin: 50px 250px; /* Center the entire content block */
     padding: 20px;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* light shadow for depth */
     border-radius: 10px;
 }
 
 .description-section {
     display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: center; /* Vertically align items */
     margin-bottom: 30px;
 }
 
 .recipe-sections {
     display: grid;
-    grid-template-columns: 3fr 7fr; 
+    grid-template-columns: 3fr 7fr; /* split this section into columns */
     gap: 70px;
     margin-top: 30px;
 }
