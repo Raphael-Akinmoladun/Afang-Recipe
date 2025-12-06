@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #8B4521;
+    --color-secondary: #006400;
+    --color-background: #FAF0E6;
+    --color-text: #333333;
+    --color-accent: #f642f6;
+    --color-underline: #DAA520;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: var(--color-primary);
+    font-size: 25px;
+    margin: 15px 0 10px 0;
+    border-bottom: 2px solid var(--color-underline);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+h4 {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin: 10px 0; 
+}
+
+em {
+    font-style: italic;
+    color: var(--color-secondary);
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 50px 250px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.description-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.recipe-sections {
+    display: grid;
+    grid-template-columns: 3fr 7fr; 
+    gap: 70px;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+}
+
+.recipe-details {
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-left: 5px solid var(--color-secondary);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 12px;
+    padding-left: 5px;
+}
+
+/* Styling for strong/underline tags in instructions */
+ol li strong u {
+    color: var(--color-secondary);
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.nutrition-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--color-background);
+    border-radius: 8px;
+    border: 1px dashed var(--color-accent);
+}
+
+.nutrition-section h3 {
+    border-bottom: none;
+    text-align: center;
+}
