@@ -124,3 +124,9 @@ a:hover {
     border-bottom: none;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .recipe-sections {
+        grid-template-columns: 1fr;
+    }
+}
